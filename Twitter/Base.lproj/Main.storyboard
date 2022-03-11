@@ -19,7 +19,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ra-C8-RVs">
                                 <rect key="frame" x="94.666666666666686" y="395" width="201" height="54"/>
-                                <color key="backgroundColor" red="0.47421334708631135" green="0.69109963497855631" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.1521047945" green="0.87342818089999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="201" id="2hP-ay-ifa"/>
                                     <constraint firstAttribute="height" constant="54" id="rku-WW-DdJ"/>
@@ -74,12 +74,12 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbC-I1-NJa">
                                             <rect key="frame" x="93" y="11" width="47" height="18"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6w-UE-933">
-                                            <rect key="frame" x="93" y="36.666666666666664" width="277" height="72.333333333333343"/>
+                                            <rect key="frame" x="93" y="34.333333333333336" width="277" height="74.666666666666657"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -101,9 +101,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="profileImageVIew" destination="mJD-Y5-Qnw" id="7jC-n6-grm"/>
+                                    <outlet property="profileImageView" destination="mJD-Y5-Qnw" id="MUP-08-Ss0"/>
                                     <outlet property="tweetContent" destination="g6w-UE-933" id="lkQ-ka-OK4"/>
-                                    <outlet property="userNameLabel" destination="g6w-UE-933" id="oIH-xk-HbR"/>
+                                    <outlet property="userNameLabel" destination="WbC-I1-NJa" id="up9-2m-hiF"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -114,6 +114,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Home" id="1Nn-Px-Esx">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="opU-u1-HfR">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="onLogout:" destination="rXu-TC-mOM" id="0Nn-fZ-7S1"/>
                             </connections>
@@ -136,10 +137,10 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                         <navigationBarAppearance key="standardAppearance">
-                            <color key="backgroundColor" red="0.47421334710000002" green="0.69109963500000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.1521047945" green="0.87342818089999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </navigationBarAppearance>
                         <navigationBarAppearance key="scrollEdgeAppearance">
-                            <color key="backgroundColor" red="0.47421334710000002" green="0.69109963500000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.1521047945207582" green="0.87342818085198792" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </navigationBarAppearance>
                     </navigationBar>
                     <connections>
