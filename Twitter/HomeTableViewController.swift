@@ -2,7 +2,7 @@
 //  HomeTableViewController.swift
 //  Twitter
 //
-//  Created by Leia Ku on 3/9/22.
+//  Created by Ian Ku on 3/9/22.
 //  Copyright © 2022 Dan. All rights reserved.
 //
 
